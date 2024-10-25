@@ -93,12 +93,23 @@ nav {
 
     aside{
         display: flex;
+        justify-content: center;
         height: 100px;
-        background-color: red;
     }
 
     .icon{
         display: flex;
+        align-items: center;
+        width: 170px;
+        padding: 30px 20px 0px 0px;
+        font-size: 14px;
+
+        img{
+            margin-right: 10px;
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
     }
 }
 
